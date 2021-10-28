@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    font-family: 'IBM Plex Serif', serif;
+    margin: 0; 
+    font-family: 'Montserrat', sans-serif;   
 }
 
 ul{
@@ -12,28 +12,37 @@ a{
 }
 
 button{
-    border-style: none;
-    font-family: 'IBM Plex Serif', serif;   
+    border-style: none;       
 }
 
-main{
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+.button-none{
+    display: none;
 }
+
 /** LIGTH MODE **/
 
+.ligth-mode{
+    background-color: #E0E6FF;
+    color: black;
+}
+
 .ligth-mode nav{
-    background: linear-gradient(to right, #c99ac9, #660066);      
+    background: linear-gradient(to bottom, #9d90c9, #E0E6FF);      
 }
 
 .ligth-mode .button-contact-me{
-    background-color: white;
-    color: #660066;
-    border: 2px solid #c99ac9;    
+    background-color: #660066;
+    color: white;
+     
 }
 
 .ligth-mode .button-contact-me:hover{
     background-color: #003366;
     color: aliceblue;
+}
+
+.ligth-mode .list-nav a{
+    color: black;
 }
 
 /** DARK MODE **/
@@ -88,7 +97,7 @@ main{
 }
 
 .button-fa-moon:hover{
-    background-color: rgb(14, 70, 173);
+    background-color: #660066;
 }
 
 .button-fa-sun:hover{
@@ -97,9 +106,11 @@ main{
 
 
 nav{
+    width: 100%;
     display: flex;
     justify-content: space-between;     
-    padding: 10px;
+    padding: 15px;
+    position: fixed;
 }
 
 .button-contact-me{
@@ -107,5 +118,6 @@ nav{
     border-radius: 20px;
     padding: 5px 10px;
     font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 
