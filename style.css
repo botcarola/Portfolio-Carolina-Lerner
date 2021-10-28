@@ -13,22 +13,37 @@ a{
 
 button{
     border-style: none;
+    font-family: 'IBM Plex Serif', serif;   
 }
 
-/** dark MODE **/
+main{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+/** LIGTH MODE **/
+
+.ligth-mode nav{
+    background: linear-gradient(to right, #c99ac9, #660066);      
+}
+
+.ligth-mode .button-contact-me{
+    background-color: white;
+    color: #660066;
+    border: 2px solid #c99ac9;    
+}
+
+.ligth-mode .button-contact-me:hover{
+    background-color: #003366;
+    color: aliceblue;
+}
+
+/** DARK MODE **/
 
 .dark-mode{
     background-color: black;
+    color: white;
 }
 
 /** NAV **/
-
-.ligth-mode nav{
-    display: flex;
-    justify-content: space-between;
-    background: linear-gradient(to right, #CC99CC, #660066);   
-    padding: 30px;
-}
 
 .button-dark-mode{
     border: none;
@@ -50,7 +65,7 @@ button{
 }
 
 .button-fa-moon{
-    background-color: rgb(130, 187, 233);
+    background-color: #003366;
 }
 
 .button-fa-sun{
@@ -58,13 +73,39 @@ button{
 }
 
 .list-nav{
-    display: flex;
+    display: flex;  
+    align-items: center; 
+}
+
+.list-nav li{
+    margin-right: 40px;  
+}
+
+.list-nav a{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .button-fa-moon:hover{
-    background-color: cornflowerblue;
+    background-color: rgb(14, 70, 173);
 }
 
 .button-fa-sun:hover{
     background-color: orange;
 }
+
+
+nav{
+    display: flex;
+    justify-content: space-between;     
+    padding: 10px;
+}
+
+.button-contact-me{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
