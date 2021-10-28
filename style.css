@@ -111,6 +111,7 @@ nav{
     justify-content: space-between;     
     padding: 15px;
     position: fixed;
+    top: 0;
 }
 
 .button-contact-me{
@@ -120,4 +121,40 @@ nav{
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
+
+/** HEADER **/
+
+header{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.section-header{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-header h1{
+    font-size: 60px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.container-image-header{
+    display: flex;
+    width: 50%;
+}
+
+.container-image-header img{
+    display: flex;
+    width: 75%;
+}
+
 
