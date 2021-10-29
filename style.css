@@ -58,7 +58,6 @@ button{
 }
 
 
-
 /** DARK MODE **/
 
 .dark-mode{
@@ -207,7 +206,7 @@ header{
 }
 
 .container-skills section h3{
-    font-weight: 500;
+    font-weight: 300;
     font-size: 25px;
     margin: 0;
 }
@@ -240,6 +239,29 @@ header{
 .icon-card{
     font-size: 90px;
 }
+/** SECCIÓN SOBRE MÍ **/
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    background-color: #003366;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.about-me p{
+    font-size: 20px;
+}
+
+.icon-quote{
+    font-size: 100px;
+    color: white;
+    padding: 30px;
+}
+
+
 
 
 
