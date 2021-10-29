@@ -31,12 +31,12 @@ button{
 }
 
 .ligth-mode .button-contact-me{
-    background-color: #660066;
+    background-color: #003366;
     color: white;     
 }
 
 .ligth-mode .button-contact-me:hover{
-    background-color: #003366;
+    background-color: #660066;
     color: aliceblue;
 }
 
@@ -55,6 +55,22 @@ button{
 .ligth-mode .card:hover{
     color: #660066;
     border: 1px solid #660066;
+}
+
+.ligth-mode .card-project{
+    border: 1.5px solid gray;
+}
+
+.ligth-mode .card-project:hover{
+    background-color: #f4f4fa;
+}
+
+.ligth-mode .card-project:hover{
+    border: 1.5px solid ;
+}
+
+.ligth-mode .card-project span:hover{
+    color: #003366;
 }
 
 
@@ -87,7 +103,7 @@ button{
 }
 
 .button-fa-moon{
-    background-color: #003366;
+    background-color: #660066;
 }
 
 .button-fa-sun{
@@ -110,7 +126,7 @@ button{
 }
 
 .button-fa-moon:hover{
-    background-color: #660066;
+    background-color: #003366;
 }
 
 .button-fa-sun:hover{
@@ -205,7 +221,7 @@ header{
     margin-top: 60px;
 }
 
-.container-skills section h3{
+.container-skills section p{
     font-weight: 300;
     font-size: 25px;
     margin: 0;
@@ -261,6 +277,39 @@ header{
     padding: 30px;
 }
 
+/** SECCIÓN MIS PROYECTOS **/
+
+.projects-cards{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    margin: 40px;
+    justify-content: center;
+}
+
+.card-project{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 15px;   
+}
+
+.card-project img{
+    width: 60%;
+    height: 60%;
+    margin: 10px;
+}
+
+.card-project span{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
 
 
 
