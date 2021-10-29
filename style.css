@@ -48,6 +48,15 @@ button{
     background-color:  #c8bee9;
 }
 
+.ligth-mode .card{
+    border: 1px solid gray;
+}
+
+.ligth-mode .card:hover{
+    color: #660066;
+    border: 1px solid #660066;
+}
+
 
 
 /** DARK MODE **/
@@ -202,6 +211,36 @@ header{
     font-size: 25px;
     margin: 0;
 }
+
+.skills-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    margin: 100px;
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card span{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.icon-card{
+    font-size: 90px;
+}
+
 
 
 
