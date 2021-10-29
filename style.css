@@ -44,6 +44,10 @@ button{
     color: black;
 }
 
+.ligth-mode .container-skills{
+    background-color:  #c8bee9;
+}
+
 
 
 /** DARK MODE **/
@@ -133,19 +137,27 @@ header{
     align-content: center;
     align-items: center;
     margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .section-header{
     width: 50%;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;    
+}
+
+.section-header h2{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin: 0;
 }
 
 .section-header h1{
-    font-size: 60px;
+    font-size: 75px;
     margin: 0;
     font-weight: 800;
+    font-family: 'Lobster', cursive;
 }
 
 .section-header h4{
@@ -162,5 +174,38 @@ header{
     display: flex;
     width: 75%;
 }
+
+/** CONTAINER MIS CONOCIMIENTOS **/
+
+.container-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-skills section{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-skills section h2{
+    font-family: 'Lobster', cursive; 
+    font-size: 50px;   
+    margin-top: 60px;
+}
+
+.container-skills section h3{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+}
+
+
+
+
+
 
 
