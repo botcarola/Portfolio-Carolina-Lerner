@@ -311,6 +311,24 @@ header{
     font-weight: 400;
 }
 
+/** SECCIÓN FORMULARIO **/
+
+.container-form{
+    width: 80%;
+    background-color: white;
+    display: flex;
+}
+
+
+
+.input-name-lastname{
+    display: flex;
+}
+
+.input-email-textarea{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
