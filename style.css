@@ -73,6 +73,10 @@ button{
     color: #003366;
 }
 
+.ligth-mode .container-form{
+    border: 1px solid gray;
+}
+
 
 /** DARK MODE **/
 
@@ -313,13 +317,48 @@ header{
 
 /** SECCIÓN FORMULARIO **/
 
-.container-form{
-    width: 80%;
-    background-color: white;
+.container-contact{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.container-form{
+    width: 70%;
+    background-color: white;
+    display: flex;
+    
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
 
+.container-form h2{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.container-form .contact-me{
+    width: 50%;
+}
+
+.container-form .form-contact-me{
+    width: 50%;
+}
+
+.contact-me{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.contact-me p{
+    width: 70%;
+}
 
 .input-name-lastname{
     display: flex;
