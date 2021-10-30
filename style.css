@@ -85,6 +85,10 @@ button{
     border: transparent;
 }
 
+.ligth-mode footer{
+    background-color: #660066;
+}
+
 
 /** DARK MODE **/
 
@@ -368,7 +372,13 @@ header{
 
 .contact-me p{
     width: 70%;
-    margin-left: 15px;
+    margin: 0px 15px;
+    
+}
+
+.contact-me h2{
+       
+    margin-bottom: 40px;
 }
 
 .social-media-list{
@@ -379,6 +389,9 @@ header{
     padding: 10px;
     margin: 5px;
 }
+.social-media-list a{
+    padding: 14px 5px 14px 0px;
+}
 
 .icon-social-media{
     font-size: 28px;
@@ -388,6 +401,11 @@ header{
 
 .form-contact-me{
     margin: 20px;
+}
+
+.form-contact-me h2{
+    margin: 20px 0px;
+    
 }
 
 form{
@@ -406,7 +424,7 @@ form{
 }
 
 label{
-    margin: 10px 0px;    
+    margin: 10px 10px;  
 }
 
 input{
@@ -438,8 +456,44 @@ textarea {
       margin-top: 20px;
 }
 
+/** FOOTER **/
 
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.footer-links{
+    width: 40%;    
+    display: flex;    
+    justify-content: space-evenly;
+    padding: 40px 0px;       
+}
+
+.footer-links a{
+    color: white;
+    font-weight: 300;
+    margin: 5px 10px;
+    font-size: 15px;    
+}
+
+.social-media-ico-footer{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.social-media-ico-footer .icon-social-media{
+    color: white;
+    margin: 0px 20px;
+}
+
+.social-media-ico-footer .icon-social-media:hover{
+    color: black;
+    border-radius: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+}
 
 
 
