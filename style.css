@@ -81,6 +81,14 @@ border: 1px solid gray;
 color: black;
 }
 
+.light-mode .social-media-list a:hover{
+    color: #9b00ff;
+}
+
+.light-mode .social-media-list a:hover .icon-social-media{
+    color: #9b00ff;
+}
+
 .light-mode input, textarea{
 border: transparent;
 }
@@ -402,7 +410,7 @@ padding: 10px;
 margin: 5px;
 }
 .social-media-list a{
-padding: 14px 5px 14px 0px;
+padding: 16px 5px 16px 0px;
 }
 
 .icon-social-media{
