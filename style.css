@@ -21,74 +21,83 @@ display: none;
 
 /** LIGTH MODE **/
 
-.ligth-mode{
+.light-mode{
 background-color: #E0E6FF;
 color: black;
 }
 
-.ligth-mode nav{
+.light-mode nav{
 background: linear-gradient(to bottom, #9d90c9, #E0E6FF);      
 }
 
-.ligth-mode .button-contact-me{
+.light-mode .button-contact-me{
 background-color: #003366;
 color: white;     
 }
 
-.ligth-mode .button-contact-me:hover{
+.light-mode .button-contact-me:hover{
 background-color: #660066;
 color: aliceblue;
 }
 
-.ligth-mode .list-nav a{
+.light-mode .list-nav a{
 color: black;
 }
 
-.ligth-mode .container-skills{
+.light-mode .container-skills{
 background-color:  #c8bee9;
 }
 
-.ligth-mode .card{
+.light-mode .card{
 border: 1px solid gray;
 }
 
-.ligth-mode .card:hover{
+.light-mode .card:hover{
 color: #660066;
 border: 1px solid #660066;
 }
 
-.ligth-mode .card-project{
+.light-mode .card-project{
 border: 1.5px solid gray;
 }
 
-.ligth-mode .card-project:hover{
+.light-mode .card-project:hover{
 background-color: #f4f4fa;
 }
 
-.ligth-mode .card-project:hover{
+.light-mode .card-project:hover{
 border: 1.5px solid ;
 }
 
-.ligth-mode .card-project span:hover{
+.light-mode .card-project span:hover{
 color: #003366;
 }
 
-.ligth-mode .container-form{
+.light-mode .container-form{
 border: 1px solid gray;
 }
 
-.ligth-mode a, .icon-social-media {
+.light-mode a, .icon-social-media {
 color: black;
 }
 
-.ligth-mode input, textarea{
+.light-mode input, textarea{
 border: transparent;
 }
 
-.ligth-mode footer{
+.light-mode footer{
 background-color: #660066;
 }
 
+.light-mode input:focus, textarea:focus{
+    box-shadow: 0px 0px 7px #9b00ff;
+    outline-color: #9b00ff; 
+}
+
+.light-mode a:focus, button:focus{
+    box-shadow: 0px 0px 7px #9b00ff;
+    outline-color: #9b00ff; 
+}
 
 /** DARK MODE **/
 
@@ -484,13 +493,17 @@ font-size: 15px;
 .social-media-ico-footer{
 display: flex;
 align-items: center;
-margin: 20px 0px;
-padding: 0px 0px 20px 0px;
+margin: 0;
+padding: 0;
+}
+
+.social-media-ico-footer li{
+   margin: 25px;
 }
 
 .social-media-ico-footer .icon-social-media{
 color: white;
-margin: 0px 20px;
+margin: 0;
 }
 
 .social-media-ico-footer .icon-social-media:hover{
