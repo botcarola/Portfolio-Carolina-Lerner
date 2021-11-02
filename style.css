@@ -90,13 +90,13 @@ background-color: #660066;
 }
 
 .light-mode input:focus, textarea:focus{
-    box-shadow: 0px 0px 7px #9b00ff;
-    outline-color: #9b00ff; 
+box-shadow: 0px 0px 7px #9b00ff;
+outline-color: #9b00ff; 
 }
 
 .light-mode a:focus, button:focus{
-    box-shadow: 0px 0px 7px #9b00ff;
-    outline-color: #9b00ff; 
+box-shadow: 0px 0px 7px #9b00ff;
+outline-color: #9b00ff; 
 }
 
 /** DARK MODE **/
@@ -176,7 +176,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .ico-menu{
-    display: none;
+display: none;
 }
 
 /** HEADER **/
@@ -389,7 +389,7 @@ margin: 0px 15px;
 }
 
 .contact-me h2{
-    
+
 margin-bottom: 40px;
 }
 
@@ -464,8 +464,8 @@ background-color: #f4f4fa;
 }
 
 .button-submit{
-    width: 30%;
-    margin-top: 20px;
+width: 30%;
+margin-top: 20px;
 }
 
 /** FOOTER **/
@@ -498,7 +498,7 @@ padding: 0;
 }
 
 .social-media-ico-footer li{
-   margin: 25px;
+margin: 25px;
 }
 
 .social-media-ico-footer .icon-social-media{
@@ -518,97 +518,233 @@ border-radius: 20px;
 @media screen and (max-width: 1635px) {
 
 .skills-cards{        
-    width: 60%;       
-    }
+width: 60%;       
+}
 
 .projects-cards{        
-    width: 70%;        
-    }
+width: 70%;        
+}
 
 .container-form{
-    width: 60%; 
-    }
-    
+width: 60%; 
+}
+
 }
 
 @media screen and (max-width: 1390px) {
 
 .skills-cards{        
-    width: 75%;       
-    }
+width: 75%;       
+}
 
 .projects-cards{        
-    width: 90%;        
-    }
+width: 90%;        
+}
 
 .container-form{
-    width: 75%; 
-    }
+width: 75%; 
+}
 
 .container-image-header img{
-    width: 85%;
-    padding-left: 40px;
+width: 85%;
+padding-left: 40px;
 }  
 
 .section-header h2{
-    font-size: 30px;
-    }
+font-size: 30px;
+}
 
 .section-header h1{
-    font-size: 60px;
+font-size: 60px;
 }
 
 .section-header h4{
-    font-size: 20px;
-    }
-    
+font-size: 20px;
 }
 
-@media screen and (max-width: 950px) {
+}
+
+@media screen and (max-width: 1000px) {
 
 .container-form{
-    width: 100%; 
-    }
+width: 100%; 
+margin: 0;
+}
 
 .container-image-header img{
-    width: 85%;
-    padding-left: 40px;
+width: 85%;
+padding-left: 40px;
 }  
 
+.light-mode .container-form{
+border-radius: 0px;
+}
+
 .section-header h2{
-    font-size: 25px;
-    }
+font-size: 25px;
+}
 
 .section-header h1{
-    font-size: 50px;
+font-size: 50px;
 }
 
 .section-header h4{
-    font-size: 18px;
-    }    
+font-size: 18px;
+}    
 }
 
 @media screen and (max-width: 780px) {
 
 .list-nav{
-    display: none;
+display: none;
 }
 
 header{
-    flex-direction: column;
+flex-direction: column;
 }
 
 .ico-menu{
-    display: flex;
-    align-items: center;
-    margin: 20px;
+display: flex;
+align-items: center;
+margin: 20px;
 }
 
 .ico-menu .fa-bars{
+font-size: 30px;
+color: #660066;
+}
+
+.ul-presentation{
+text-align: center;
+}
+
+.container-image-header{
+width: 80%;
+padding: 50px;
+justify-content: center;
+}
+}
+
+@media screen and (max-width: 700px){
+
+.header{
+    margin: 0;
+    padding: 0;
+}
+
+.ul-presentation{
+    padding: 0;
+}
+
+.container-image-header{
+    padding: 0;
+    margin-top: 100px;
+}
+
+.container-form{
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color: #E0E6FF;
+}
+
+.light-mode .container-form{
+    border: transparent;
+}
+
+.container-form .form-contact-me{
+    width: 100%;
+    margin: 0;        
+}
+
+.container-form .contact-me{
+    width: 100%;
+}
+.container-form{
+    width: 98%;
+}
+
+.input-name-lastname div{ 
+    width: 100%;
+    flex-direction: column;
+    
+}
+.contact-me{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.contact-me h2{
+    padding: 0;
+    margin-top: 30px;
+}
+
+.projects-cards{
+    margin: 0;
+}
+
+.footer-links a{
+    font-size: 14px;
+    padding: 0;        
+}
+
+.footer-links{
+    padding: 20px 0px;
+}
+
+.icon-social-media{
+    font-size: 22px;
+    margin: 5px;
+}     
+
+.projects-cards{
+    padding: 20px 0px;
+}
+
+.container-skills section p{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+}
+
+.container-skills section h2{
     font-size: 30px;
-    color: #660066;
 }
 }
 
+@media screen and (max-width: 410px) {
 
+.footer-links a{
+    font-size: 10px;
+}
 
+.icon-social-media{
+    font-size: 18px;
+}
+
+.icon-quote{
+    font-size: 40px;
+}
+
+.about-me p{
+    font-size: 15px;
+}
+
+.about-me h2{
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 322px){
+
+.footer-links a{
+    font-size: 8px;
+}
+
+.icon-social-media{
+    
+    padding: 0;
+    margin: 0;
+}
+}
