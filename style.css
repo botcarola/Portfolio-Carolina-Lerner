@@ -114,19 +114,41 @@ background-color: black;
 color: white;
 }
 
+.dark-mode nav{
+background: linear-gradient(to bottom, rgb(33, 17, 77), black);      
+}
+
+.dark-mode .button-contact-me{
+background-color: rgb(80, 51, 117);
+color: white;     
+}
+
+.dark-mode .button-contact-me:hover{
+background-color: rgb(33, 17, 77);
+color: aliceblue;
+}
+
+
 /** NAV **/
 
 .button-dark-mode{
 border: none;
 background-color: transparent;
 display: flex;
+margin: 10px;
+padding: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 45px;
+border-radius: 20px;
 }
 
 .button-fa-sun, .button-fa-moon{
 border-radius: 30px;
 border: 1px solid white;
-padding: 15px; 
-margin: 5px; 
+padding: 10px; 
+
 background-color: white; 
 }
 
@@ -140,7 +162,7 @@ background-color: #660066;
 }
 
 .button-fa-sun{
-background-color: rgb(255, 178, 11);    
+background-color: rgb(33, 17, 77);    
 }
 
 .list-nav{
@@ -163,7 +185,7 @@ background-color: #003366;
 }
 
 .button-fa-sun:hover{
-background-color: orange;
+background-color: rgb(80, 51, 117);
 }
 
 
