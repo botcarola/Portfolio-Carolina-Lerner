@@ -111,7 +111,7 @@ outline-color: #9b00ff;
 
 .dark-mode{
 background-color: black;
-color: white;
+color: rgb(237, 237, 238);
 }
 
 .dark-mode nav{
@@ -120,14 +120,88 @@ background: linear-gradient(to bottom, rgb(33, 17, 77), black);
 
 .dark-mode .button-contact-me{
 background-color: rgb(80, 51, 117);
-color: white;     
+color: rgb(237, 237, 238);     
 }
 
 .dark-mode .button-contact-me:hover{
-background-color: rgb(33, 17, 77);
+background-color: rgb(42, 16, 114);
 color: aliceblue;
 }
 
+.dark-mode .list-nav a{
+color: rgb(237, 237, 238);
+}
+
+.dark-mode .container-skills{
+    background: linear-gradient(to top, rgb(33, 17, 77), black);
+}
+
+
+.dark-mode .card{
+    border: 1px solid white;
+    color: black;
+    background-color: rgb(222, 222, 226);
+}
+    
+    .dark-mode .card:hover{
+    color: #003366;
+    border: 1px solid #003366;
+    }
+    
+    .dark-mode .card-project{
+    border: 1.5px solid rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
+    }
+    
+    .dark-mode .card-project:hover{
+    background-color: rgb(231, 231, 231);
+    border: 1.5px solid #0c08ff;
+    }
+    
+    
+    .dark-mode .card-project span:hover{
+    color: #000000;
+    }
+
+    .dark-mode .about-me{
+        background-color: rgb(8, 7, 8);
+        
+    }
+    
+    .light-mode .container-form{
+    border: 1px solid gray;
+    }
+    
+    .light-mode a, .icon-social-media {
+    color: black;
+    }
+    
+    .light-mode .social-media-list a:hover{
+        color: #9b00ff;
+    }
+    
+    .light-mode .social-media-list a:hover .icon-social-media{
+        color: #9b00ff;
+    }
+    
+    .light-mode input, textarea{
+    border: transparent;
+    }
+    
+    .light-mode footer{
+    background-color: #660066;
+    }
+    
+    .light-mode input:focus, textarea:focus{
+    box-shadow: 0px 0px 7px #9b00ff;
+    outline-color: #9b00ff; 
+    }
+    
+    .light-mode a:focus, button:focus{
+    box-shadow: 0px 0px 7px #9b00ff;
+    outline-color: #9b00ff; 
+    }
+    
 
 /** NAV **/
 
@@ -162,7 +236,7 @@ background-color: #660066;
 }
 
 .button-fa-sun{
-background-color: rgb(33, 17, 77);    
+background-color: rgb(42, 16, 114);    
 }
 
 .list-nav{
