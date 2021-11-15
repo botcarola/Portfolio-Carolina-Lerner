@@ -436,52 +436,30 @@ width: 50%;
 background-color: white;
 display: flex;    
 margin: 100px;
-align-items: center;
 justify-content: center;
 border-radius: 10px;
 }
 
-.container-form h2{
-font-family: 'Lobster', cursive;
-font-size: 50px;
-margin: 5px;
-padding: 10px;
-}
-
-.container-form .contact-me{
-width: 50%;
-}
-
-.container-form .form-contact-me{
-width: 50%;
-}
-
 .contact-me{
+width: 55%;
 display: flex;
-width: 20%;
 flex-direction: column;
-margin: 20px;
-padding-bottom: 100px;
+margin: 15px 30px;
 }
 
-.contact-me p{
-width: 70%;
-margin: 0px 15px;
-
-}
-
-.contact-me h2{
-
-margin-bottom: 40px;
+.contact-me h2, .form-contact-me h2{
+font-family: 'Lobster', cursive;
+font-size: 30px;
 }
 
 .social-media-list{
+margin: 0;
 padding: 0;
 }
 
 .social-media-list li{
-padding: 10px;
-margin: 5px;
+padding: 10px 0px;
+margin: 5px 0px;
 }
 .social-media-list a{
 padding: 16px 5px 16px 0px;
