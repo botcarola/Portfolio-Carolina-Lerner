@@ -1,6 +1,7 @@
 body{
 margin: 0; 
 font-family: 'Montserrat', sans-serif;   
+scroll-behavior: smooth;
 }
 
 ul{
@@ -208,35 +209,20 @@ color: rgb(237, 237, 238);
 .button-dark-mode{
 border: none;
 background-color: transparent;
-display: flex;
 margin: 10px;
-padding: 2px;
 display: flex;
 justify-content: center;
 align-items: center;
 height: 45px;
-border-radius: 20px;
-}
-
-.button-fa-sun, .button-fa-moon{
-border-radius: 30px;
-border: 1px solid white;
+border-radius: 25px;
+border: 2px solid white;
 padding: 10px; 
-
-background-color: white; 
+background-color: #660066;
 }
 
 .fa-sun, .fa-moon{
 font-size: 23px;
 color: white; 
-}
-
-.button-fa-moon{
-background-color: #660066;
-}
-
-.button-fa-sun{
-background-color: rgb(42, 16, 114);    
 }
 
 .list-nav{
@@ -253,15 +239,6 @@ color: white;
 font-size: 20px;
 font-weight: 400;
 }
-
-.button-fa-moon:hover{
-background-color: #003366;
-}
-
-.button-fa-sun:hover{
-background-color: rgb(80, 51, 117);
-}
-
 
 nav{
 width: 100%;
@@ -324,6 +301,7 @@ font-size: 22px;
 .container-image-header{
 display: flex;
 width: 50%;
+padding: 0;
 }
 
 .container-image-header img{
@@ -651,7 +629,6 @@ width: 75%;
 
 .container-image-header img{
 width: 85%;
-padding-left: 40px;
 }  
 
 .section-header h2{
@@ -677,7 +654,6 @@ margin: 0;
 
 .container-image-header img{
 width: 85%;
-padding-left: 40px;
 }  
 
 .light-mode .container-form{

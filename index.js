@@ -1,32 +1,32 @@
-// ELEMENTOS DEL DOM
+// DOM
 
-const spanLightMode = document.querySelector(".button-fa-sun");
-const spanDarkMode = document.querySelector(".button-fa-moon");
+
 const buttonDarkLigthMode = document.querySelector(".button-dark-mode");
 const buttonContactMe = document.querySelector("#b-contact")
 const buttonProjects = document.querySelector("#buttonProjects")
 const body = document.querySelector("body")
+const imgHeader = document.querySelector("#img-header")
+const iconDarkMode = document.querySelector(".fa-moon")
+
+// DARK/LIHGT MODE
 
 
-// MODO OSCURO
+buttonDarkLigthMode.onclick = () => {  
+body.classList.toggle("dark-mode")
+body.classList.toggle("light-mode") 
+iconDarkMode.classList.toggle("fa-sun")
 
-console.log("hola")
-
-buttonDarkLigthMode.onclick = () => {
-spanLightMode.classList.toggle("button-none")
-spanDarkMode.classList.toggle("button-none")
-
-if(spanDarkMode.classList.contains("button-none")){
-    body.classList.remove("light-mode")
-    body.classList.add("dark-mode")
-} else {
-    body.classList.remove("dark-mode")
-    body.classList.add("light-mode")    
- }
+if(iconDarkMode.classList.contains("fa-sun")){
+buttonDarkLigthMode.style.background = "rgb(33, 17, 77)"
+imgHeader.src = "images/undraw_proud_coder_7ain.svg"
+} 
+else{
+    buttonDarkLigthMode.style.background = "#660066"
+    imgHeader.src = "images/undraw_proud_coder.svg"
+}
 }
 
-
-// BOTONES && ENLACES DE ANCLA
+// BUTTONS/LINKS
 
 const buttonWindowLocation = (boton, ancla) => {
 boton.onclick = () => {
